@@ -1,0 +1,15 @@
+.sheet-card{
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+  margin: 5% 0% 10% 0%;
+}
+
+.sheet-img-card {
+  width: 100%;
+}
+.sheet-crop{
+    height: 600px;
+    overflow: hidden;
+}
+.hero-name{
+      text-align: center;
+}

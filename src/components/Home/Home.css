@@ -24,7 +24,15 @@
 }
 
 
-
+.brand{
+  height: 50px;
+}
+.navbar-text{
+  font-size: 36px;
+}
+.container-fluid{
+  height: 80px;
+}   
 /*Card Style */
 .img-card {
   width: 100%;
@@ -37,6 +45,9 @@
 }
 
 .crop{
-    height: 250px;
-    overflow: hidden;
+  height: 350px;
+  overflow: hidden;
+}
+.links{
+  text-align: center;
 }
