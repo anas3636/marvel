@@ -61,24 +61,22 @@ class Sheet extends Component {
 					<div className="sheet-crop">
 						<img className="sheet-img-card" src={this.state.thumbnail.path + '.' +this.state.thumbnail.extension  + '?hash=' + this.state.hash +'&apikey='+ this.state.apiPublic +'&ts='+ this.state.ts }  alt="hero"  />
 				    </div>
-				    <h2 className="hero-name">{this.state.hero.name}</h2>
-				    
-				    <h3>Series</h3>
-				    <hr/>
-						{ this.state.series.map(function(item) {
-						        return <a key={item.resourceURI} href={item.resourceURI}>
-						        			<h4>{item.name} </h4>
-						        	   </a>
-						    })
-						}
-					<h3>Stories</h3>
-					<hr/>
-						{ this.state.stories.map(function(item) {
-						        return <a key={item.resourceURI} href={item.resourceURI}>
-						        			<h4>{item.name} </h4>
-						        	   </a>
-						    })
-						}
+				    <div className="card-content">
+					    <h2 className="hero-name">{this.state.hero.name}</h2>
+					    
+					    <h3>Series</h3>
+					    <hr/>
+							{ this.state.series.map(function(item) {
+							        return <h4 key={item.resourceURI} className="blue-font">{item.name} </h4>
+							    })
+							}
+						<h3>Stories</h3>
+						<hr/>
+							{ this.state.stories.map(function(item) {
+							        return <h4 key={item.resourceURI} className="blue-font">{item.name} </h4>
+							    })
+							}
+					</div>
 			    </div>
 		</div>
 		<div className="col-xs-3"></div>

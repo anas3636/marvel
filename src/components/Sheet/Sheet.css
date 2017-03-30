@@ -7,9 +7,17 @@
   width: 100%;
 }
 .sheet-crop{
-    height: 600px;
-    overflow: hidden;
+    eight: 600px;
+  overflow: hidden;
 }
 .hero-name{
-      text-align: center;
+  text-align: center;
+}
+
+.blue-font{
+  color: #5b8aaf;
+}
+.card-content{
+  margin: 5%;
+  padding-bottom: 20px;
 }
